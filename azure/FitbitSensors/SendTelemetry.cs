@@ -54,7 +54,7 @@ namespace FitbitIoT
 
             TransportType transportType = TransportType.Mqtt;
             string connectionString = Environment.GetEnvironmentVariable("IoTHubConnection");
-            connectionString += $";DeviceId={telemetry.deviceID};";
+            //connectionString += $";DeviceId={telemetry.deviceID};";
 
             DeviceClient deviceClient;
 
